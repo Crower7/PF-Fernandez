@@ -2,111 +2,83 @@ body{
     background-color: rgb(218, 50, 218);
     display: block;
     margin: 8px;
-   
     
-}
-                                                         /* proyecto */
-.nameActivity {
-    color: purple;
-    font-size: larger;
-}
+}    
+                                            /* Cabecera */
 
-#name_title {
-    border: solid 2px black;
-    margin-top: 20px;
-    background-color: antiquewhite;
-    width: auto;
-}
-
-.borde, .actividad1 {
-    border: solid 1px black;
-    margin-top: 10px;
-    padding-left: 5px;
-    background-color: antiquewhite;
-}
-
-
-.actividad1 {
-    color: orange;
-}
-
-.actividadEnClase1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    line-height: 15px;
-    color: #0033ff;
-}
-
-                                                            /* Cabecera */
- 
 .cabecera_div {
-    display: flex;
-    justify-content: center;
-    background-color: #0000008c;
-                                                            
+display: flex;
+justify-content: center;
+background-color: #0000008c;
+
 }
-                                                            
+
 .header_nav {
-    display: flex;                                                       
+display: flex;                                                       
 }
 
 .header_nav_galeria {
-    display: flex;
-    margin-top: 15px;
+display: flex;
+margin-top: 15px;
 }
-                                                            
-                                                            
+
+
 .header__item {
-    background-color: #403abd;
-    padding: 1rem;
-    margin: 1rem;
-    display: inline-flex;
-    border: 2px solid black;
-    align-items: center;
-    height: 6px;
+background-color: #403abd;
+padding: 1rem;
+margin: 1rem;
+display: inline-flex;
+border: 2px solid black;
+align-items: center;
+height: 6px;
 }
 
 .header__item_galeria {
-    height: 40px;
+height: 40px;
 }
-                                                            
+
 .header_list {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+
 }
-   
-    
-  
 
- li {
-    display: inline-block;
-    position:relative;
-    font-size: 20px;
-    margin-top: 3px;
 
- 
-   
- }
 
- a {
-    text-decoration: none;
-    color:white;
- }
- 
-    
-    
- 
 
- 
+li {
+display: inline-block;
+position:relative;
+font-size: 20px;
+margin-top: 3px;
 
-                                                             /* Index */
+
+
+}
+
+a {
+text-decoration: none;
+color:white;
+}
+
+
+
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+}    
+
+
+
+                                                /* Index */
 
 .title_box{
-   text-align: center;
-   
-}
+    text-align: center;
+    
+}    
+
 .title_fondo_img{
     margin-left:auto;
     margin-right:auto;
@@ -114,12 +86,11 @@ body{
     border: solid 1px black;
     margin-top: 25px; 
     display: inline-block;
-}
-
+}    
 
 #informacion {
     font-size: 20px;
-}
+}    
 
 #imagenes{
     width: 1050px;
@@ -131,53 +102,103 @@ body{
     color: white;
     display: flex;
     align-items: center;
-}
+}    
 
 .box_img {
     width: 200px;
     height: 200px;
     float: left;
     padding: 5px;
-}
+}    
 
-h2{
-    text-align: center;
+                                                    /* Producto*/
+
+#caja_img {                                                
+    height: 450px;
+    width: 450px;
+    background-color: black;
     margin-top: 50px;
-}
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px red;
+}                                          
 
-                                                        /* contacto*/
+.img_caja1 {
+    border: 3px solid green;
+}    
+
+
+/* contacto*/
 
 
 .formulario {
-    text-align: center;
-    margin-top: 5%;
-    border: solid 1px black;
-    background-color: rgb(187, 131, 240);
+text-align: center;    
+margin-top: 5%;
+border: solid 1px black;
+background-color: rgb(187, 131, 240);
 }
 
 textarea {
-    resize: none;
-    height: 130px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+resize: none;    
+height: 130px;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .formulario_letra {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    
-    
+font-size: 20px;    
+margin-top: 10px;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+
+
 }
 
 input {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto
+width: 300px;    
+margin-left: auto;
+margin-right: auto
 }
+
+
+
+/* proyecto */
+.nameActivity {
+    color: purple;
+    font-size: larger;
+}    
+
+#name_title {
+    border: solid 2px black;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    width: auto;
+}    
+
+.borde, .actividad1 {
+    border: solid 1px black;
+    margin-top: 10px;
+    padding-left: 5px;
+    background-color: antiquewhite;
+}    
+
+
+.actividad1 {
+    color: orange;
+}    
+
+.actividadEnClase1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    color: #0033ff;
+}    
+
 
                                                     /* footer */
 
@@ -276,24 +297,6 @@ margin-top: 20px;
  }
 
  
-                                                                /* Producto*/
-  
-#caja_img {
-    height: 450px;
-    width: 450px;
-    background-color: black;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 3px red;
-}                                      
-
-.img_caja1 {
-    border: 3px solid green;
-}
 
 
 
