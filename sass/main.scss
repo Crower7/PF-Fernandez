@@ -1,5 +1,9 @@
-h1 {
-    color: green($color: #000000)
-}
-
+@import "./mini_sass/variables";
 @import "./mini_sass/header";
+@import "./mini_sass/_header_rp320";
+@import "./mini_sass/_header_rp768";
+@import "./mini_sass/_logo_inicio";
+@import "./mini_sass/_img_inicio";
+@import "./mini_sass/_texto_inicio";
+@import "./mini_sass/_footer";
+@import "./mini_sass/_img_inicio_rp768";

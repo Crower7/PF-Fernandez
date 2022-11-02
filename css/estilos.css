@@ -1,6 +1,110 @@
-h1 {
-  color: 0; }
-
 .cabecera_div {
-  margin-top: 15px;
-  background-color: black; }
+  display: flex;
+  justify-content: center;
+  background-color: #0000008c; }
+  .cabecera_div .header_nav {
+    display: flex; }
+  .cabecera_div .header__list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center; }
+  .cabecera_div .header__item {
+    background-color: #403abd;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-flex;
+    border: 2px solid black;
+    align-items: center;
+    height: 6px; }
+  .cabecera_div .header_nav_galeria {
+    display: flex;
+    margin-top: 15px; }
+  .cabecera_div .header__item_galeria {
+    height: 40px; }
+  .cabecera_div li {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-top: 3px; }
+  .cabecera_div a {
+    text-decoration: none;
+    color: white; }
+  .cabecera_div h2 {
+    text-align: center;
+    margin-top: 50px; }
+
+@media screen and (max-width: 320px) {
+  .cabecera_div {
+    display: flex;
+    justify-content: center; }
+  .header_nav {
+    text-align: center; }
+  .header__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -40px; }
+  .header__item {
+    background-color: #403abd;
+    margin: 5px;
+    border: 2px solid black;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .header__item_galeria {
+    background-color: #403abd;
+    margin: 5px;
+    border: 2px solid black;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px; } }
+
+@media screen and (max-width: 768px) {
+  .header__item {
+    background-color: #403abd;
+    padding: 5px;
+    margin: 1px;
+    display: inline-flex;
+    border: 2px solid black;
+    justify-content: center; } }
+
+.logo_box {
+  text-align: center; }
+  .logo_box .logo_img {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid 1px black;
+    margin-top: 25px;
+    display: inline-block; }
+
+#imagenes {
+  width: 1050px;
+  height: 250px;
+  border: 1px solid green;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center; }
+  #imagenes .box_img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 5px; }
+
+#informacion {
+  font-size: 20px; }
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: dashed; }
+
+@media screen and (max-width: 768px) {
+  #imagenes {
+    width: 690px; } }
