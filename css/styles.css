@@ -131,7 +131,7 @@ h2{
 }    
 
 
-/* contacto*/
+                                            /* contacto*/
 
 
 .formulario {
@@ -167,7 +167,7 @@ margin-right: auto
 
 
 
-/* proyecto */
+                                            /* proyecto */
 .nameActivity {
     color: purple;
     font-size: larger;
@@ -246,35 +246,7 @@ margin-top: 20px;
     background-color: black;
 }
 
-
-
-
-.galeria {
-    height: 250px;
-    width: 250px;
-    float: left;
-    margin-top: 25px;
-    margin-left: 45px;
-    border: solid 1px rgb(107, 33, 177);
- 
-}                  
-
-
-
-#galeria_principal {
-    
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 260px 260px 260px 260px;
-    justify-content: center;
-    
-}
-
-#galeria_principal div {
-    display: grid;
-    grid-template-rows: 1/3;
-}
-
+               
 
 
 
@@ -383,4 +355,3 @@ margin-top: 20px;
         margin-top: 25px;
     }
  }                                       
- 

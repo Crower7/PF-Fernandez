@@ -1,0 +1,16 @@
+
+.padre_caja {
+    background-color: aquamarine;
+    height: 150px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+
+    .caja {
+        background-color: #5879ff;
+        height: 130px;
+        width: 130px;
+        margin-top: 10px;
+ }
+}

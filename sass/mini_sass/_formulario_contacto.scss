@@ -1,0 +1,33 @@
+
+.formulario {
+    text-align: center;    
+    margin-top: 5%;
+    border: solid 1px black;
+    background-color: rgb(187, 131, 240);
+    width: 612px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    .formulario_letra {
+        font-size: 20px;    
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+        textarea {
+            resize: none;    
+            height: 130px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+    }
+    
+            input {
+                width: 230px;    
+                margin-left: auto;
+                margin-right: auto
+    }
+}

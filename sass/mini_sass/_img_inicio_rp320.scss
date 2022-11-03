@@ -1,0 +1,33 @@
+@media screen and (max-width: 320px){
+    
+    #imagenes {
+    width: auto;
+    margin-top: 40px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+
+        .colum_index {
+            display: flex;
+            flex-direction: column; 
+    }
+
+
+            .box_img {
+                display: block;
+                margin: auto;
+
+    }
+                .parrafo_title {
+                    margin-top: 10px;
+    }
+
+                    .title_fondo_img {
+                        margin-top: 25px;
+    }
+    
+}
+                            
