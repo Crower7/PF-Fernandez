@@ -10,7 +10,7 @@
     flex-flow: row nowrap;
     justify-content: center; }
   .cabecera_div .header__item {
-    background-color: #403abd;
+    background-color: #b49bb5;
     padding: 1rem;
     margin: 1rem;
     display: inline-flex;
@@ -29,7 +29,7 @@
     margin-top: 3px; }
   .cabecera_div a {
     text-decoration: none;
-    color: white; }
+    color: black; }
   .cabecera_div h2 {
     text-align: center;
     margin-top: 50px; }
@@ -51,7 +51,8 @@
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: center;
+    background-color: white; }
   .logo_box h2 {
     font-size: 35px;
     margin-top: 0px; }
@@ -82,7 +83,11 @@
 .footer {
   margin-top: 20px;
   text-align: center;
-  text-decoration: dashed; }
+  text-decoration: dashed;
+  margin-right: 88px; }
+  .footer .icon {
+    margin-left: 65px;
+    float: right; }
 
 .formulario {
   text-align: center;
@@ -110,17 +115,26 @@
     margin-right: auto; }
 
 .padre_caja {
-  background-color: aquamarine;
+  background-color: #191a1a;
   height: 150px;
   width: 100%;
   margin-top: 100px;
   display: flex;
   justify-content: space-around; }
   .padre_caja .caja {
-    background-color: #5879ff;
+    background-color: #c1c5d7;
+    height: 130px;
+    width: 900px;
+    margin-top: 10px; }
+  .padre_caja .caja_img {
     height: 130px;
     width: 130px;
-    margin-top: 10px; }
+    background-color: red;
+    margin-top: 10px;
+    margin-right: 70px; }
+  .padre_caja p {
+    font-size: 20px;
+    padding: 15px; }
 
 .centrar_carrusel {
   object-fit: cover;
@@ -146,6 +160,9 @@
   border: solid 1px black;
   margin-top: 10px;
   background-color: black; }
+
+body {
+  background-color: #d8e5ff; }
 
 @media screen and (max-width: 768px) {
   .header__item {
@@ -218,3 +235,19 @@
 @media screen and (max-width: 320px) {
   .logo_box {
     width: 300px; } }
+
+@media screen and (max-width: 320px) {
+  .padre_caja {
+    display: flex;
+    flex-direction: column;
+    height: 500px; }
+    .padre_caja .caja {
+      width: 304px;
+      height: auto; }
+    .padre_caja .caja_img {
+      margin-left: 77px; } }
+
+@media screen and (max-width: 320px) {
+  .footer .icon {
+    margin-left: 30px;
+    float: right; } }
