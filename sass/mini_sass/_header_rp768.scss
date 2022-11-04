@@ -1,11 +1,16 @@
 @media screen and (max-width: 768px) {
-                                                    
+    
+    .header__list {
     .header__item {
-        background-color: #403abd;
-        padding: 5px;
+        background-color: #b49bb5;
+        
         margin: 1px;
         display: inline-flex;
         border: 2px solid black;
         justify-content: center;
+    }
+        .header__item_galeria {
+            font-size: 18px;
+        }
     }
  }
