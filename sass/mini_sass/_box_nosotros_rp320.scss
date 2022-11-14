@@ -3,13 +3,16 @@
         display: flex;
         flex-direction: column;
         height: 500px;
+       
     
     .caja {
         width: 304px;
         height: auto;
+        margin-left: 8px;
  }
         .caja_img {
-           margin-left: 77px;
+           margin-left: 95px;
+           width: 130px;
 
         }
             p {

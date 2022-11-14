@@ -134,6 +134,8 @@
     background-color: red;
     margin-top: 10px;
     margin-right: 70px; }
+  .padre_caja .img_nosotros {
+    height: 130px; }
   .padre_caja p {
     font-size: 20px;
     padding: 15px; }
@@ -165,6 +167,12 @@
 
 body {
   background-color: #d8e5ff; }
+
+.gridd {
+  margin-top: 20px;
+  margin: 15px; }
+  .gridd .prod_img {
+    height: 100%; }
 
 @media screen and (max-width: 768px) {
   .header__list .header__item {
@@ -239,6 +247,12 @@ body {
   .logo_box {
     width: 300px; } }
 
+@media screen and (max-width: 768px) {
+  .padre_caja .caja_img {
+    margin-left: 50px;
+    margin-right: 26px;
+    width: 188px; } }
+
 @media screen and (max-width: 320px) {
   .padre_caja {
     display: flex;
@@ -246,9 +260,11 @@ body {
     height: 500px; }
     .padre_caja .caja {
       width: 304px;
-      height: auto; }
+      height: auto;
+      margin-left: 8px; }
     .padre_caja .caja_img {
-      margin-left: 77px; } }
+      margin-left: 95px;
+      width: 130px; } }
 
 @media screen and (max-width: 320px) {
   .footer .icon {
