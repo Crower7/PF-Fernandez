@@ -1,16 +1,42 @@
 @media screen and (max-width: 768px) {
+ body {
+    background-color: red;
     
-    .header__list {
-    .header__item {
-        background-color: #b49bb5;
-        
-        margin: 1px;
-        display: inline-flex;
-        border: 2px solid black;
-        justify-content: center;
-    }
-        .header__item_galeria {
-            font-size: 18px;
+ }   
+    .header {
+        height: 60px;
+    
+        .logo {
+            font-size: 25px;
+            padding: 0 20px;
+            line-height: 60px;
         }
-    }
- }
+
+            .nav-menu {
+                flex-direction: column;
+                align-items: center;
+                margin-right: 0;
+                background-color: rgb(95, 97, 97);
+                position: fixed;
+                left: 0;
+                top: 60px;
+                width: 100%;
+
+                height: calc(100% - 60px);
+                overflow-y: auto;
+
+                left: 100%;
+                transition: left 0.3s;
+        }
+
+                .nav-menu-item {
+                    line-height: 70px;
+        }
+                    .nav-toggle {
+                        display: block;
+        }
+                        .nav-menu_visible {
+                            left: 0;
+                        }
+        }
+}
