@@ -190,7 +190,7 @@ body {
 
 @media screen and (max-width: 768px) {
   body {
-    background-color: red; }
+    background-color: #fda0a0; }
   .header {
     height: 60px; }
     .header .logo {
@@ -221,7 +221,14 @@ body {
 
 @media screen and (max-width: 768px) {
   #imagenes {
-    width: 690px; } }
+    width: auto;
+    height: auto; }
+    #imagenes .colum_index {
+      display: flex;
+      flex-direction: column; }
+    #imagenes .box_img {
+      display: block;
+      margin: auto; } }
 
 @media screen and (max-width: 320px) {
   .logo_box {

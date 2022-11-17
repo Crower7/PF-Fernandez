@@ -1,5 +1,16 @@
 @media screen and (max-width: 768px) {
     #imagenes {
-        width: 690px;
+        width: auto;
+        height: auto;
+
+        .colum_index {
+            display: flex;
+            flex-direction: column; 
+    }
+
+            .box_img {
+                display: block;
+                margin: auto;
+            }
     }
 }
