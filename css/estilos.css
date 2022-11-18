@@ -35,7 +35,7 @@
     padding: 0 40px;
     line-height: 80px; }
   .header .nav-toggle {
-    color: white;
+    color: black;
     background: none;
     border: none;
     font-size: 30px;
@@ -128,6 +128,8 @@
     width: 230px;
     margin-left: auto;
     margin-right: auto; }
+  .formulario .butt_for {
+    font-weight: bold; }
 
 .padre_caja {
   background-color: #191a1a;
@@ -234,6 +236,10 @@ body {
   .logo_box {
     width: 768px; } }
 
+@media screen and (max-width: 768px) {
+  .formulario {
+    margin-top: 10%; } }
+
 @media screen and (max-width: 320px) {
   #imagenes {
     width: auto;
@@ -254,7 +260,8 @@ body {
 
 @media screen and (max-width: 320px) {
   .formulario {
-    width: auto; } }
+    width: auto;
+    margin-top: 30%; } }
 
 @media screen and (max-width: 320px) {
   .logo_box {
@@ -272,9 +279,8 @@ body {
     flex-direction: column;
     height: 500px; }
     .padre_caja .caja {
-      width: 304px;
-      height: auto;
-      margin-left: 8px; }
+      width: auto;
+      height: auto; }
     .padre_caja .caja_img {
       margin-left: 95px;
       width: 130px; } }
